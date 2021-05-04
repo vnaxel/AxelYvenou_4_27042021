@@ -800,6 +800,10 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
