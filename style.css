@@ -548,6 +548,11 @@ button {
     margin: auto;
 }
 
+.exImgTitle {
+    text-transform: none;
+    font-weight: 300;
+}
+
 .exImgPadding {
     padding-bottom: 1rem;
 }
