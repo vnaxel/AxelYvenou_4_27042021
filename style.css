@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -544,17 +544,13 @@ button {
 .exImg {
     font-size: 2.3rem;
     font-weight: 500;
-    max-width: 600px;
-    margin: auto;
+    margin: 3rem 15px;
 }
 
 .exImgTitle {
+    text-align: center;
     text-transform: none;
     font-weight: 300;
-}
-
-.exImgPadding {
-    padding-bottom: 1rem;
 }
 
 .italic {
@@ -563,6 +559,11 @@ button {
 
 .smallfont {
     font-size: 1.7rem;
+    margin: 0rem 15px 3rem 15px;
+}
+
+.pbot2rem {
+    padding-bottom: 5rem;
 }
 
 a[data-lightbox] {
@@ -615,7 +616,6 @@ a[data-lightbox]:hover img {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
     left: 15px;
     right: 15px;
     bottom: 5px;
@@ -631,8 +631,8 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
-    padding: 0 9px 5px;
-    opacity: 0.3;
+    padding: 0 6px;
+    opacity: 0.5;
 }
 
 .close-lightbox:hover,
@@ -651,27 +651,23 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    padding: 0 7px;
+    opacity: 0.5;
 }
 
 .next-lightbox {
-    padding: 6px 8px 1px 13px;
-    right: 25px;
+    right: 20px;
 }
 
 .prev-lightbox {
-    padding: 6px 13px 1px 10px;
-    left: 25px;
-}
-
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    left: 20px;
 }
 
 .snapshot-lb .lightbox-caption {
-    padding: 0;
+    padding: 10px 0 0 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    text-align: center;
 }
 
 h1,
@@ -714,7 +710,7 @@ a {
 
 p {
     font-size: 18px;
-    margin: 10px;
+    margin: 0;
     padding: 0;
 }
 
