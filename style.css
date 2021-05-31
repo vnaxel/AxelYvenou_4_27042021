@@ -533,12 +533,17 @@ button {
 
 .contact {
     font-size: 2rem;
+    border-radius: 0.5rem;
     font-weight: 600;
     align-self: flex-end;
     border: 1px solid black;
     padding: 1rem;
-    margin: 0 2rem 0 2rem;
+    margin: 1.5em 2rem 0 2rem;
     word-wrap: break-word;
+}
+
+.pt-4 {
+    padding-top: 4rem;
 }
 
 .exImg {
